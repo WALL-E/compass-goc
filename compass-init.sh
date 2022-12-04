@@ -9,10 +9,10 @@ NODE_HOME=~/.compass
 NODE_MONIKER=compass
 # ***
 
-CHAIN_BINARY_URL='https://github.com/hyphacoop/ics-testnets/raw/main/game-of-chains-2022/compass/compassd'
+CHAIN_BINARY_URL='https://github.com/WALL-E/ics-compass/raw/main/compassd'
 CHAIN_BINARY='compassd'
-CHAIN_ID=compass-1
-PERSISTENT_PEERS="4b5cee15e6a9c4b96b8c1c4f396a18b0461edc17@128.199.29.137:26656,835173badfc41ecbd867a0395c6a452bda2bb90f@128.199.26.103:26656"
+CHAIN_ID=compass-goc
+PERSISTENT_PEERS="pending"
 
 # Install go 1.19.2
 echo "Installing go..."
@@ -33,9 +33,9 @@ chmod +x $HOME/go/bin/$CHAIN_BINARY
 # echo "Installing build-essential..."
 # sudo apt install build-essential -y
 # rm -rf compass
-# git clone https://github.com/strangelove-ventures/compass.git
+# git clone https://github.com/wangfeiping/compass-goc.git
 # cd compass
-# git checkout tags/v0.0.1
+# git checkout tags/v0.1.1
 # make install
 
 export PATH=$PATH:$HOME/go/bin
