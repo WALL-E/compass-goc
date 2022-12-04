@@ -8,7 +8,7 @@ Contents
 ## Status
 
 * Timeline
-  * 2022-12-09: Spawn time: 2022-12-09T22:00:00.000000Z 
+  * 2022-12-09: Spawn time: 2022-12-09T14:00:00.000000Z 
   * 2022-12-06: Proposal goes into voting period
   * 2022-12-06: Chain initialized
 
