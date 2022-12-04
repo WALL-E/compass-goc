@@ -1,4 +1,4 @@
-# Hero Chain Information
+# Compass Chain Information
 
 Contents
 
@@ -12,7 +12,7 @@ Contents
   * 2022-12-06: Proposal goes into voting period
   * 2022-12-06: Chain initialized
 
-Hero will launch as a consumer chain through a governance proposal in the `provider` chain. Read the [Consumer Chain Start Process](https://github.com/WALL-E/ics-compass/blob/main/Consumer-Chain-Start-Process.md) page for more details about the workflow.
+Compass will launch as a consumer chain through a governance proposal in the `provider` chain. Read the [Consumer Chain Start Process](https://github.com/WALL-E/ics-compass/blob/main/Consumer-Chain-Start-Process.md) page for more details about the workflow.
 
 The following items will be included in the proposal:
 * Genesis file hash
@@ -54,7 +54,7 @@ The genesis file with was generated using the following settings:
 * **p2p seeds : `pending`**
 * **p2p persistent peers : `pending`**
 * These peers represent the `goc-coordinator` and `goc-backup` validators (run by the testnet coordinators). 
-* The `goc-backup` validator node will be running on Hero shortly after the genesis file that includes the CCV state (Cross Chain Validation state) has been published.
+* The `goc-backup` validator node will be running on Compass shortly after the genesis file that includes the CCV state (Cross Chain Validation state) has been published.
 * The `goc-coordinator` validator node has an overwhelming majority of the voting power, and we aim to start it two hours after the spawn time is reached. 67% of the voting power needs to come online for consumer chains to start. Once the `goc-coordinator` is live, the chain will progress.
 * Please keep in mind that any validator that does not come online after 67% of the voting power is up and running, is likely to be slashed for downtime, potentially resulting in being jailed (the `signed_blocks_window` parameter is set to `8640`).
 
@@ -64,13 +64,13 @@ On the node machine:
 - Copy the `node_key.json` and `priv_validator_key.json` files for your validator.
   - **These should be the same ones as the ones from your provider node**.
 - Run one of the following scripts:
-  - Hero service: [compass-init.sh](compass-init.sh)
+  - Compass service: [compass-init.sh](compass-init.sh)
   - Cosmovisor service: [compass-init-cv.sh](compass-init-cv.sh)
 - Wait until the spawn time is reached and the genesis file with the CCV states is available.
 - Overwrite the genesis file with the one that includes the CCV states.
   - The default location is `$HOME/.compass/config/genesis.json`.
 - Enable and start the service:
-  - Hero
+  - Compass
     ```
     sudo systemctl enable compass
     sudo systemctl start compass
@@ -81,6 +81,6 @@ On the node machine:
     sudo systemctl start cv-compass
     ```
 - To follow the log, use:
-  - Hero: `journalctl -fu compass`
+  - Compass: `journalctl -fu compass`
   - Cosmovisor: `journalctl -fu cv-compass`
 - If the log does not show up right away, run `systemctl restart systemd-journald`.
