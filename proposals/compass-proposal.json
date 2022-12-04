@@ -6,7 +6,7 @@
         "revision_height": 1,
         "revision_number": 1
     },
-    "genesis_hash": "4a498592197d87223eb987cda461243c5eb6826df41c0a641ffe65874f8c3c62",
+    "genesis_hash": "132404d52ff161a3e543bae1f2ac3489604e2e04539f105a2751006cc765a999",
     "binary_hash": "d354255c2f815d3b9289e4afd580d7d9005667393e90ab861cd339e9524ff906",
     "spawn_time": "2022-12-09T22:00:00.000000Z",
     "deposit": "1ucompass"
