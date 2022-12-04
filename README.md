@@ -46,7 +46,7 @@ The genesis file with was generated using the following settings:
 * Denom: `ucompass`
 * Signed blocks window: `"8640"`
 * Genesis accounts were added to provide funds for a faucet and a relayer that will be run by the testnet coordinators.
-* Genesis file **without CCV state**: [`compass-fresh-genesis.json`](compass-fresh-genesis.json), SHA256: `d354255c2f815d3b9289e4afd580d7d9005667393e90ab861cd339e9524ff906`
+* Genesis file **without CCV state**: [`compass-fresh-genesis.json`](compass-fresh-genesis.json), SHA256: `4a498592197d87223eb987cda461243c5eb6826df41c0a641ffe65874f8c3c62`
   * **This is provided only for verification, this is not the genesis file validators should be running their nodes with.**
 
 ## Endpoints
