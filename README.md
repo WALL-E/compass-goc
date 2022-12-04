@@ -8,8 +8,9 @@ Contents
 ## Status
 
 * Timeline
+  * 2022-12-09: Spawn time: 2022-12-09T22:00:00.000000Z 
   * 2022-12-06: Proposal goes into voting period
-  * 2022-12-09: Chain initialized
+  * 2022-12-06: Chain initialized
 
 Hero will launch as a consumer chain through a governance proposal in the `provider` chain. Read the [Consumer Chain Start Process](https://github.com/hyphacoop/ics-testnets/blob/main/docs/Consumer-Chain-Start-Process.md) page for more details about the workflow.
 
