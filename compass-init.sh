@@ -5,7 +5,7 @@
 # You should only have to modify the values in this block
 PRIV_VALIDATOR_KEY_FILE=~/priv_validator_key.json
 NODE_KEY_FILE=~/node_key.json
-NODE_HOME=~/.compass
+NODE_HOME=~/.compassd
 NODE_MONIKER=compass
 # ***
 
