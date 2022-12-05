@@ -1,6 +1,6 @@
 {
     "title": "Create the Compass chain",
-    "description": "This is the proposal to create the consumer chain \"compass-goc\". Visit https://github.com/WALL-E/ics-compass for details on this proposal's data and how to join the chain.",
+    "description": "This is the proposal to create the consumer chain \"compass-goc\". Visit https://github.com/WALL-E/compass-goc for details on this proposal's data and how to join the chain.",
     "chain_id": "compass-goc",
     "initial_height": {
         "revision_height": 1,
