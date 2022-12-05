@@ -8,7 +8,7 @@ Contents
 ## Status
 
 * Timeline
-  * 2022-12-09: Spawn time: 2022-12-09T14:00:00.000000Z 
+  * 2022-12-08: Spawn time: 2022-12-08T14:00:00.000000Z
   * 2022-12-06: Proposal goes into voting period
   * 2022-12-06: Chain initialized
 
@@ -46,7 +46,7 @@ The genesis file with was generated using the following settings:
 * Denom: `ucompass`
 * Signed blocks window: `"8640"`
 * Genesis accounts were added to provide funds for a faucet and a relayer that will be run by the testnet coordinators.
-* Genesis file **without CCV state**: [`compass-fresh-genesis.json`](compass-fresh-genesis.json), SHA256: `132404d52ff161a3e543bae1f2ac3489604e2e04539f105a2751006cc765a999`
+* Genesis file **without CCV state**: [`compass-fresh-genesis.json`](compass-fresh-genesis.json), SHA256: `b53a4907ef605498a3566cdd4bdd2f7ff591352dd9e206476fd81fb2003b02c9`
   * **This is provided only for verification, this is not the genesis file validators should be running their nodes with.**
 
 ## Endpoints
