@@ -60,5 +60,5 @@ The process we are following to start the consumer chains is as follows:
 
 The diagram below illustrates this process.
 
-![Consumer chain start process](../images/consumer-start-process.svg)
+![Consumer chain start process](images/consumer-start-process.svg)
 
